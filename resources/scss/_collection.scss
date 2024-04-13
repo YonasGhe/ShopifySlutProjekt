@@ -1,0 +1,12 @@
+.collection-image {
+    width: 400px; 
+    height: 150px; 
+    object-fit: cover; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.collection-image:hover {
+    transform: scale(1.05); 
+}

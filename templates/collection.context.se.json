@@ -1,0 +1,15 @@
+{
+  "parent": "collection.json",
+  "context": {
+    "market": "se"
+  },
+  "sections": {
+    "product-grid": {
+      "settings": {
+        "padding_top": 88
+      },
+      "blocks": {
+      }
+    }
+  }
+}

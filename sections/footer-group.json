@@ -2,18 +2,104 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "newsletter_mFQ3yG": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_EVDwe9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay Up To Date & More!",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_gTkJjY": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get 15% off be the first to know about new collections and exclusive offers. Sign Up Now!</p>"
+          }
+        },
+        "email_form_Adpbka": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_EVDwe9",
+        "paragraph_gTkJjY",
+        "email_form_Adpbka"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "footer": {
       "type": "footer",
+      "blocks": {
+        "link_list_GqFRyd": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>About</strong>",
+            "menu": "about"
+          }
+        },
+        "link_list_gxxQXX": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>Help</strong>",
+            "menu": "help"
+          }
+        },
+        "link_list_NEqXCJ": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>Get in touch</strong>",
+            "menu": "get-in-touch"
+          }
+        },
+        "link_list_L4q3Ep": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>Currency</strong>",
+            "menu": "currency"
+          }
+        },
+        "link_list_4EdQwC": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>Follow us</strong>",
+            "menu": "follow-us"
+          }
+        },
+        "link_list_xqEaGP": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>We accept</strong>",
+            "menu": "we-accept"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_GqFRyd",
+        "link_list_gxxQXX",
+        "link_list_NEqXCJ",
+        "link_list_L4q3Ep",
+        "link_list_4EdQwC",
+        "link_list_xqEaGP"
+      ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
+        "color_scheme": "scheme-2",
+        "newsletter_enable": false,
+        "newsletter_heading": "",
+        "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": true,
-        "enable_language_selector": true,
+        "enable_language_selector": false,
         "payment_enable": true,
-        "show_policy": false,
+        "show_policy": true,
         "margin_top": 0,
         "padding_top": 36,
         "padding_bottom": 36
@@ -21,6 +107,7 @@
     }
   },
   "order": [
+    "newsletter_mFQ3yG",
     "footer"
   ]
 }

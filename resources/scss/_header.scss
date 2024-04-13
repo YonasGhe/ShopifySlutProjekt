@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header > :first-child {
+    order: 1; 
+}
+
+img {
+    width: 45%;
+}
