@@ -8,6 +8,15 @@
     order: 1; 
 }
 
-img {
-    width: 45%;
+.header img {
+    width: 50%;
+    transition: transform 0.3s ease;
+    
+}
+.header__menu-item:hover {
+    color: blue; 
+}
+
+.header img:hover {
+    transform: scale(1.05); 
 }

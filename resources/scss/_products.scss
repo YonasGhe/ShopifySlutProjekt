@@ -2,11 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
   }
   
   .card {
-    width: calc(85% - 5px); 
-    margin-bottom: 20px;
+    width: calc(95% - 1px); 
+    //margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     overflow: hidden;
@@ -17,8 +18,8 @@
   }
   
   .card__heading {
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
   }
   
   .card__information {
@@ -47,4 +48,12 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
   }
+
+  .button--secondary {
+    color: blue;
+}
+
+
+
+
   
