@@ -60,20 +60,6 @@
             "menu": "get-in-touch"
           }
         },
-        "link_list_L4q3Ep": {
-          "type": "link_list",
-          "settings": {
-            "heading": "<strong>Currency</strong>",
-            "menu": "currency"
-          }
-        },
-        "link_list_4EdQwC": {
-          "type": "link_list",
-          "settings": {
-            "heading": "<strong>Follow us</strong>",
-            "menu": "follow-us"
-          }
-        },
         "link_list_xqEaGP": {
           "type": "link_list",
           "settings": {
@@ -86,8 +72,6 @@
         "link_list_GqFRyd",
         "link_list_gxxQXX",
         "link_list_NEqXCJ",
-        "link_list_L4q3Ep",
-        "link_list_4EdQwC",
         "link_list_xqEaGP"
       ],
       "settings": {

@@ -47,7 +47,11 @@
   transition: box-shadow 0.3s ease;
 }
 
-.button--secondary {
+.card .button--secondary {
+  color: blue;
+}
+
+.button--secondary span:first-child {
   color: blue;
 }
 

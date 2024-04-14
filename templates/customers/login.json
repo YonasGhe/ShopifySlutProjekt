@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-login",
-      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
