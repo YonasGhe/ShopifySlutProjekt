@@ -77,3 +77,63 @@
 .header img:hover {
   transform: scale(1.05);
 }
+
+.footer-outer-div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-outer-div .menu {
+  margin: 0 30px;
+  margin-bottom: 0px;
+}
+
+.footer-outer-div .menu h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.footer-outer-div .menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-outer-div .menu ul li {
+  margin-bottom: 8px;
+}
+
+.footer-outer-div .menu ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-outer-div .contact-us {
+  display: flex;
+  align-items: center;
+}
+
+.footer-outer-div .contact-us img {
+  width: 15px !important;
+  height: auto;
+  margin-right: 10px;
+}
+
+.footer-outer-div .contact-us img,
+.footer-outer-div .payments img,
+.footer-outer-div .follow-us img {
+  width: 125px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-outer-div .menu {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

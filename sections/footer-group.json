@@ -36,53 +36,26 @@
         "padding_bottom": 52
       }
     },
+    "custom_liquid_WyrqaG": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"footer-outer-div\">\n  <div class=\"menu\">\n    <h3>About</h3>\n    <ul>\n      <li><a href=\"#\">Our Story</a></li>\n      <li><a href=\"#\">For Our Youth</a></li>\n      <li><a href=\"#\">Recipes For Impact Book</a></li>\n      <li><a href=\"#\">In the News</a></li>\n      <li><a href=\"#\">Join Our Team</a></li>\n    </ul>\n  </div>\n  <div class=\"menu\">\n    <h3>Help</h3>\n    <ul>\n      <li><a href=\"#\">Shipping</a></li>\n      <li><a href=\"#\">Refunds</a></li>\n      <li><a href=\"#\">Manage Subscription</a></li>\n      <li><a href=\"#\">FAQ</a></li>\n      <li><a href=\"#\">Contact Us</a></li>\n      <li><a href=\"#\">Accessibility</a></li>\n    </ul>\n  </div>\n  <div class=\"menu\">\n    <h3>Get in touch</h3>\n    <div class=\"contact-us\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0694/3732/5533/files/telephone.png?v=1712819114\" alt=\"Example Image\">\n      <span>+4679-876 54 32</span>\n    </div>\n  </div>\n  <div class=\"menu\">\n    <h3>We accept</h3>\n    <div class=\"payments\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0694/3732/5533/files/USPaymentMethodsKlarna.jpg?v=1712821134\" alt=\"payment\">\n    </div>\n  </div>\n  <div class=\"menu\">\n    <h3>Follow Us</h3>\n    <div class=\"follow-us\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0694/3732/5533/files/Skarmbild_5.png?v=1713127082\" alt=\"social-media\">\n    </div>\n  </div>\n</div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "footer": {
       "type": "footer",
-      "blocks": {
-        "link_list_GqFRyd": {
-          "type": "link_list",
-          "settings": {
-            "heading": "<strong>About</strong>",
-            "menu": "about"
-          }
-        },
-        "link_list_gxxQXX": {
-          "type": "link_list",
-          "settings": {
-            "heading": "<strong>Help</strong>",
-            "menu": "help"
-          }
-        },
-        "link_list_NEqXCJ": {
-          "type": "link_list",
-          "settings": {
-            "heading": "<strong>Get in touch</strong>",
-            "menu": "get-in-touch"
-          }
-        },
-        "link_list_xqEaGP": {
-          "type": "link_list",
-          "settings": {
-            "heading": "<strong>We accept</strong>",
-            "menu": "we-accept"
-          }
-        }
-      },
-      "block_order": [
-        "link_list_GqFRyd",
-        "link_list_gxxQXX",
-        "link_list_NEqXCJ",
-        "link_list_xqEaGP"
-      ],
       "settings": {
         "color_scheme": "scheme-2",
         "newsletter_enable": false,
         "newsletter_heading": "",
         "enable_follow_on_shop": false,
-        "show_social": true,
-        "enable_country_selector": true,
+        "show_social": false,
+        "enable_country_selector": false,
         "enable_language_selector": false,
-        "payment_enable": true,
+        "payment_enable": false,
         "show_policy": true,
         "margin_top": 0,
         "padding_top": 36,
@@ -92,6 +65,7 @@
   },
   "order": [
     "newsletter_mFQ3yG",
+    "custom_liquid_WyrqaG",
     "footer"
   ]
 }
