@@ -6,7 +6,7 @@ const BASE = __dirname.replace(ROOT, '');
 
 export default defineConfig(() => ({
 
-    base: '',
+    base: '', 
     server:{
         protocol : "ws",
         host: "localhost",
