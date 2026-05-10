@@ -6,15 +6,22 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "ENJOY FRESH COFFEE DELIVERED TO YOUR DOOR!",
+            "heading": "Premium Coffee, Delivered to Your Door",
             "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+           "text": "Expertly roasted coffee crafted for bold flavor and smooth balance.\n\nFreshly roasted • Fast delivery in Sweden\nPremium quality beans",
+            "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -24,10 +31,11 @@
       },
       "block_order": [
         "heading",
+        "text",
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/812I1nwFrdL._AC_SX679.jpg",
+        "image": "shopify://shop_images/812I1nwFrdL._AC_SX679.jpg",
         "image_overlay_opacity": 60,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -43,12 +51,12 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Best Sellers",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
+        "collection": "best-sellers",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -61,7 +69,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 44,
